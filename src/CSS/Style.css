@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato, sans-serif   ;
+}
+
+html, body{
+    font-size: 18px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.temple-image{
+    width: 15%;
+    height: 15%;
+    border: 0px solid red;
+    object-fit: cover;
+    justify-content: left;
+}
+
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
