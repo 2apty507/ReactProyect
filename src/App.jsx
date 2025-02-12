@@ -7,9 +7,10 @@ function App () {
   return (
 
       <div className='App'>
+        
         <div className='App-header'>
           
-        <h1> React </h1>
+        <h1> Frases Filosoficas de MFF </h1>
 
         <Temple/>
 

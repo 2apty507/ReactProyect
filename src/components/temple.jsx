@@ -6,15 +6,16 @@ import React from "react";
     <div className="temple">
 
         <img className='temple-image'
-        src= './imagen 2.jpg' 
+        src= './Chris.jpg' 
         alt='imgen' />
 
         <div className="temple-description">
 
-          <p className="a"> Temple  </p>
+          <p className="Nombre"> Christopher Brandon  </p>
 
-          <p className="b"> Temple 2 </p>
-          <p className="c"> Temple 3 </p>
+          <p className="Apodo"> "BochaChula" </p>
+
+          <p className="Frase"> "Cabeza de monda!" </p>
 
         </div>
 
