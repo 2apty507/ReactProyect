@@ -1,21 +1,21 @@
 import React from "react";
 
- export function Temple() {
+ export function Temple(props) {
   return (
 
     <div className="temple">
 
         <img className='temple-image'
-        src= './Chris.jpg' 
-        alt='imgen' />
+        src= {(`/public/imagen-${props.imagen}.jpg`)} 
+        alt='imagen' />
 
         <div className="temple-description">
 
-          <p className="Nombre"> Christopher Brandon  </p>
+          <p className="Nombre"> {props.nombre}  </p>
 
-          <p className="Apodo"> "BochaChula" </p>
+          <p className="Apodo"> "{props.apodo}" </p>
 
-          <p className="Frase"> "Cabeza de monda!" </p>
+          <p className="Frase"> "{props.frase}" </p>
 
         </div>
 
